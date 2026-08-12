@@ -151,6 +151,16 @@ class KnowledgeValidationTests(unittest.TestCase):
 
         self.assertIn("concept.md: missing frontmatter field 'context_ids'", errors)
 
+    def test_accepts_drafted_concept_hub_with_empty_context_ids(self):
+        text = CONCEPT_HUB.replace(
+            'context_ids: ["context-recognition-phenomenology"]',
+            "context_ids: []",
+        )
+
+        errors = validate_knowledge_text(text, "concept.md")
+
+        self.assertEqual(errors, [])
+
     def test_rejects_unknown_review_status(self):
         text = CONCEPT_HUB.replace("review_status: drafted", "review_status: approved")
 
@@ -225,6 +235,16 @@ class ClaimValidationTests(unittest.TestCase):
 
         self.assertIn(
             "claims.jsonl:1: invalid claim_type 'objective_truth'", errors
+        )
+
+    def test_rejects_claim_with_empty_evidence_ids(self):
+        record = valid_claim()
+        record["evidence_ids"] = []
+
+        errors = validate_claim_record(record, "claims.jsonl:1")
+
+        self.assertIn(
+            "claims.jsonl:1: missing claim field 'evidence_ids'", errors
         )
 
     def test_rejects_non_object_claim(self):

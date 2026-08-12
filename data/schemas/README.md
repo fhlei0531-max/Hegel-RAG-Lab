@@ -47,6 +47,9 @@ published
 - 可选 `alternative_labels`、`related_concept_ids`。
 
 概念入口用于导航，不应制造一个跨越所有著作的唯一完整定义。
+尚未建立语境义项的入口仅可在 `review_status: drafted` 时使用空数组
+`context_ids: []`。一旦进入来源核验或更高审核状态，必须先建立并关联至少一个
+具体语境义项，不能把候选章节或研究排期冒充为已核验语境。
 
 ### 语境义项 `contextual_sense`
 

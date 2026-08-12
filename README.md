@@ -30,6 +30,16 @@ Hegel-RAG-Lab 研究如何把难读、体系性强且容易被误解的黑格尔
 
 当前内容是待审核的项目初稿，不能视为权威哲学解释。
 
+## 核心概念入口卡
+
+仓库现已建立 150 个核心概念入口，覆盖逻辑学、精神现象学、哲学全书、法哲学、历史哲学和哲学史。除“承认”外，批量卡仅是 `drafted` 状态的研究脚手架：它们记录术语、候选语境和待核验问题，不包含冒充原文的引文、页码或已经审核的哲学结论。
+
+- [查看概念目录与推荐处理顺序](docs/concept-catalog.md)
+- [查看机器可读概念清单](data/catalogs/hegel-core-concepts.json)
+- [查看概念卡文件](data/knowledge/concepts)
+
+缺失卡可由 `python scripts/generate_concept_hubs.py` 补齐；生成器不会覆盖已经人工修订的文件。
+
 ## 数据目录
 
 ```text
