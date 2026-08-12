@@ -5,51 +5,48 @@
 ## 数据生命周期
 
 ```text
-drafted
-→ source_checked
-→ philosophy_reviewed
-→ published
-→ revised
+drafted -> source_checked -> philosophy_reviewed -> published
 ```
 
-- `drafted`：初稿，尚未核对来源。
-- `source_checked`：已定位相关著作和章节。
-- `philosophy_reviewed`：经过哲学专业评审者审核。
-- `published`：通过格式检查和项目审核，可进入正式知识库。
-- `revised`：发布后根据评测或反馈进行过修订。
+- `drafted`：初稿，不能作为权威解释。
+- `source_checked`：著作、章节、版本和必要引文已经核验。
+- `philosophy_reviewed`：哲学内容经过有记录的专业审核。
+- `published`：通过结构检查和项目验收，可进入正式发布数据。
 
-初次提交请使用 `drafted` 或 `source_checked`。除非确有评审记录，不要自行标记为 `philosophy_reviewed`。
+修订历史由 Git 和审核表记录，不把 `revised` 当成审核等级。初次提交使用 `drafted`；没有真实审核记录时，不得自行提升状态。
 
 ## 提交流程
 
-1. 从真实学习问题出发建立 Issue。
-2. 使用对应模板编写概念卡、章节导读或误解纠正。
-3. 标明一手文本位置；二手解释需注明性质和来源。
-4. 运行自动化测试与数据验证器。
-5. 请求哲学内容审核。
-6. 在 Pull Request 中说明修改原因和已知边界。
+1. 从一个具体学习问题或已观察到的模型错误开始。
+2. 创建或关联概念入口，不在入口中编写跨全部著作的唯一完整定义。
+3. 为具体著作和论证阶段创建语境义项。
+4. 将关键断言拆成原子主张，并关联来源定位。
+5. 二手研究只有在核验正文后才能创建解释立场记录。
+6. 运行测试和数据验证器。
+7. 使用审核表完成“原稿诊断 -> 修订 -> 最终验收”。
+8. 根据审核意见生成评测问题，并用 Agent 原始回答做盲评。
 
 ## 内容要求
 
-- 一张知识卡集中解决一个主要问题。
-- 明确区分直接引语、转述和教学性概括。
+- 区分原文、转述、编者概括、学术解释、教学解释和类比。
 - 不编造黑格尔原文、章节、页码或参考文献。
-- 不将“正反合”等入门简化当作充分解释。
-- 对存在争议的问题标明解释范围。
+- 不将搜索摘要、AI 总结或单篇论文写成“学界共识”。
+- 对存在争议的问题保留不同立场及其证据。
 - 通俗例子不能改变概念的核心含义。
+- 自动校验通过只表示结构有效，不表示哲学内容正确。
 
-## 版权与隐私
+## 二手文献检索
 
-- 不提交仍受版权保护的现代中文译本全文或扫描件。
-- 必要短引须标明来源和译本。
-- 评审者可使用别名；未经同意不要公开真实姓名和私人反馈。
-- 不提交 API Key、访问令牌或 `.env` 文件。
+Google Scholar、知网和 PhilPapers 可用于发现候选文献。入库前必须核验论文正文、出版元数据和目标主张的具体位置。受版权保护的论文和现代译本全文不进入公开仓库。
 
-## Commit 建议
+## 本地检查
 
-```text
-data: add recognition concept card
-benchmark: add self-consciousness questions
-docs: clarify philosophy review workflow
-fix: correct ethical life explanation
+```powershell
+python -m unittest discover -s tests -v
+python scripts/validate_data.py
 ```
+
+## 隐私和安全
+
+- 评审者可使用别名；未经同意不公开真实姓名和私人反馈。
+- 不提交 API Key、访问令牌或 `.env` 文件。
