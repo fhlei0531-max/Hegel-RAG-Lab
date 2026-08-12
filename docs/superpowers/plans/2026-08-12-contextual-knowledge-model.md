@@ -90,4 +90,4 @@
 - [x] Run `python -m unittest discover -s tests -v`.
 - [x] Run `python scripts/validate_data.py`.
 - [x] Inspect `git diff --check`, repository status, and the complete diff.
-- [ ] Commit only intended files, push `agent/contextual-knowledge-model`, and open a draft PR.
+- [x] Commit only intended files, push `agent/contextual-knowledge-model`, and open a draft PR.
