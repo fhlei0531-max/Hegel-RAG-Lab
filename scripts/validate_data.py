@@ -211,7 +211,16 @@ def _missing_field_errors(
     return [
         f"{source}: missing {label} field '{field}'"
         for field in required_fields
-        if field not in record or record[field] in (None, "", [])
+        if field not in record
+        or record[field] in (None, "")
+        or (
+            record[field] == []
+            and not (
+                record.get("type") == "concept_hub"
+                and field == "context_ids"
+                and record.get("review_status") == "drafted"
+            )
+        )
     ]
 
 

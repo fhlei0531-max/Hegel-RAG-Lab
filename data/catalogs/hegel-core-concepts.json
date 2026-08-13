@@ -1,0 +1,1506 @@
+{
+  "catalog_id": "hegel-core-concepts-v1",
+  "scope_note": "面向六类目标文本的核心概念研究排期，不是黑格尔术语的穷尽清单。",
+  "concepts": [
+    {
+      "id": "concept-being",
+      "filename": "being.md",
+      "preferred_label": "存在",
+      "original_terms": [{"language": "de", "value": "Sein"}],
+      "alternative_labels": ["有"],
+      "related_concept_ids": ["concept-nothing", "concept-becoming"],
+      "candidate_contexts": ["《逻辑学》存在论开端", "《哲学全书》逻辑学部分"],
+      "verification_questions": ["“Sein”在不同中译本中应统一译为“存在”还是“有”？", "纯存在与后续规定了的存在应如何区分？"]
+    },
+    {
+      "id": "concept-nothing",
+      "filename": "nothing.md",
+      "preferred_label": "无",
+      "original_terms": [{"language": "de", "value": "Nichts"}],
+      "alternative_labels": ["虚无"],
+      "related_concept_ids": ["concept-being", "concept-becoming"],
+      "candidate_contexts": ["《逻辑学》存在论开端", "《哲学全书》逻辑学部分"],
+      "verification_questions": ["纯无能否直接等同于日常语言中的“什么都没有”？", "如何说明存在、无与变易的论证次序？"]
+    },
+    {
+      "id": "concept-becoming",
+      "filename": "becoming.md",
+      "preferred_label": "变易",
+      "original_terms": [{"language": "de", "value": "Werden"}],
+      "alternative_labels": ["生成", "形成"],
+      "related_concept_ids": ["concept-being", "concept-nothing", "concept-sublation"],
+      "candidate_contexts": ["《逻辑学》存在、无与变易", "《哲学全书》逻辑学部分"],
+      "verification_questions": ["Werden在目标语境中采用哪一中文译名最稳定？", "“发生”和“消灭”在变易内部如何区分？"]
+    },
+    {
+      "id": "concept-determinate-being",
+      "filename": "determinate-being.md",
+      "preferred_label": "定在",
+      "original_terms": [{"language": "de", "value": "Dasein"}],
+      "alternative_labels": ["限有", "规定了的存在"],
+      "related_concept_ids": ["concept-being", "concept-quality", "concept-finitude"],
+      "candidate_contexts": ["《逻辑学》定在", "《哲学全书》逻辑学的质"],
+      "verification_questions": ["如何避免把黑格尔的Dasein与海德格尔的专门用法混同？", "定在与某物的过渡如何定位？"]
+    },
+    {
+      "id": "concept-quality",
+      "filename": "quality.md",
+      "preferred_label": "质",
+      "original_terms": [{"language": "de", "value": "Qualität"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-determinate-being", "concept-quantity", "concept-measure"],
+      "candidate_contexts": ["《逻辑学》存在论中的质", "《哲学全书》逻辑学部分"],
+      "verification_questions": ["质的规定性为何与存在不可分？", "应如何区分质、性质和特性等译词？"]
+    },
+    {
+      "id": "concept-finitude",
+      "filename": "finitude.md",
+      "preferred_label": "有限性",
+      "original_terms": [{"language": "de", "value": "Endlichkeit"}],
+      "alternative_labels": ["有限"],
+      "related_concept_ids": ["concept-determinate-being", "concept-infinity"],
+      "candidate_contexts": ["《逻辑学》有限性", "《哲学全书》逻辑学的质"],
+      "verification_questions": ["有限者与其界限、应当之间的关系是什么？", "如何避免把有限性仅理解为数量上的有限？"]
+    },
+    {
+      "id": "concept-infinity",
+      "filename": "infinity.md",
+      "preferred_label": "无限",
+      "original_terms": [{"language": "de", "value": "Unendlichkeit"}],
+      "alternative_labels": ["无限性"],
+      "related_concept_ids": ["concept-finitude", "concept-being-for-self"],
+      "candidate_contexts": ["《逻辑学》坏无限与真无限", "《哲学全书》逻辑学的质"],
+      "verification_questions": ["坏无限与真无限的区分应如何通俗说明？", "哪些图像化类比会误导对无限的理解？"]
+    },
+    {
+      "id": "concept-being-for-self",
+      "filename": "being-for-self.md",
+      "preferred_label": "自为存在",
+      "original_terms": [{"language": "de", "value": "Fürsichsein"}],
+      "alternative_labels": ["自为"],
+      "related_concept_ids": ["concept-infinity", "concept-quantity"],
+      "candidate_contexts": ["《逻辑学》自为存在", "《精神现象学》涉及自为性的相关段落"],
+      "verification_questions": ["逻辑学和现象学中的“自为”能否直接合并？", "一与多在自为存在中的关系如何定位？"]
+    },
+    {
+      "id": "concept-quantity",
+      "filename": "quantity.md",
+      "preferred_label": "量",
+      "original_terms": [{"language": "de", "value": "Quantität"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-quality", "concept-measure"],
+      "candidate_contexts": ["《逻辑学》量", "《哲学全书》逻辑学部分"],
+      "verification_questions": ["量为何被描述为对规定性的一种扬弃？", "纯量、定量和程度的层次如何区分？"]
+    },
+    {
+      "id": "concept-measure",
+      "filename": "measure.md",
+      "preferred_label": "尺度",
+      "original_terms": [{"language": "de", "value": "Maß"}],
+      "alternative_labels": ["度"],
+      "related_concept_ids": ["concept-quality", "concept-quantity", "concept-essence"],
+      "candidate_contexts": ["《逻辑学》尺度", "《哲学全书》逻辑学从存在到本质的过渡"],
+      "verification_questions": ["Maß采用“尺度”还是“度”需如何按版本处理？", "量变与质变的通俗说法如何避免脱离原论证？"]
+    },
+    {
+      "id": "concept-essence",
+      "filename": "essence.md",
+      "preferred_label": "本质",
+      "original_terms": [{"language": "de", "value": "Wesen"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-being", "concept-reflection", "concept-appearance"],
+      "candidate_contexts": ["《逻辑学》本质论开端", "《哲学全书》逻辑学的本质论"],
+      "verification_questions": ["本质作为经过否定的存在应如何解释？", "如何避免把本质理解为藏在现象背后的静态实体？"]
+    },
+    {
+      "id": "concept-reflection",
+      "filename": "reflection.md",
+      "preferred_label": "反思",
+      "original_terms": [{"language": "de", "value": "Reflexion"}],
+      "alternative_labels": ["反映"],
+      "related_concept_ids": ["concept-essence", "concept-identity", "concept-difference"],
+      "candidate_contexts": ["《逻辑学》本质中的反思", "《哲学全书》逻辑学本质论"],
+      "verification_questions": ["Reflexion何时应译作“反思”，何时涉及“反映”？", "设定反思、外在反思和规定反思如何区分？"]
+    },
+    {
+      "id": "concept-identity",
+      "filename": "identity.md",
+      "preferred_label": "同一",
+      "original_terms": [{"language": "de", "value": "Identität"}],
+      "alternative_labels": ["同一性"],
+      "related_concept_ids": ["concept-difference", "concept-contradiction", "concept-reflection"],
+      "candidate_contexts": ["《逻辑学》反思规定", "《哲学全书》本质论"],
+      "verification_questions": ["黑格尔所批评的抽象同一律与其同一概念有何不同？", "同一如何包含差异而不等于取消差异？"]
+    },
+    {
+      "id": "concept-difference",
+      "filename": "difference.md",
+      "preferred_label": "差异",
+      "original_terms": [{"language": "de", "value": "Unterschied"}],
+      "alternative_labels": ["区别"],
+      "related_concept_ids": ["concept-identity", "concept-opposition", "concept-contradiction"],
+      "candidate_contexts": ["《逻辑学》差异", "《哲学全书》反思规定"],
+      "verification_questions": ["差异、区别和多样性的译名边界如何确定？", "从差异到对立的论证步骤是什么？"]
+    },
+    {
+      "id": "concept-opposition",
+      "filename": "opposition.md",
+      "preferred_label": "对立",
+      "original_terms": [{"language": "de", "value": "Gegensatz"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-difference", "concept-contradiction"],
+      "candidate_contexts": ["《逻辑学》反思规定中的对立", "《哲学全书》本质论"],
+      "verification_questions": ["对立与一般差异之间的严格区别是什么？", "如何避免把任何二元差别都称为辩证对立？"]
+    },
+    {
+      "id": "concept-contradiction",
+      "filename": "contradiction.md",
+      "preferred_label": "矛盾",
+      "original_terms": [{"language": "de", "value": "Widerspruch"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-opposition", "concept-ground", "concept-determinate-negation"],
+      "candidate_contexts": ["《逻辑学》反思规定中的矛盾", "《哲学全书》本质论"],
+      "verification_questions": ["逻辑矛盾、现实冲突与黑格尔的矛盾概念应如何区分？", "“矛盾推动发展”这一概括在哪些条件下成立？"]
+    },
+    {
+      "id": "concept-ground",
+      "filename": "ground.md",
+      "preferred_label": "根据",
+      "original_terms": [{"language": "de", "value": "Grund"}],
+      "alternative_labels": ["根基", "理由"],
+      "related_concept_ids": ["concept-contradiction", "concept-existence"],
+      "candidate_contexts": ["《逻辑学》根据", "《哲学全书》本质论"],
+      "verification_questions": ["Grund在不同论证中是“根据”还是“理由”？", "根据与被根据者的关系如何避免循环解释？"]
+    },
+    {
+      "id": "concept-existence",
+      "filename": "existence.md",
+      "preferred_label": "实存",
+      "original_terms": [{"language": "de", "value": "Existenz"}],
+      "alternative_labels": ["现存", "存在"],
+      "related_concept_ids": ["concept-ground", "concept-thing", "concept-appearance"],
+      "candidate_contexts": ["《逻辑学》实存", "《哲学全书》本质论"],
+      "verification_questions": ["Existenz与Sein、Dasein的中文译名如何稳定区分？", "从根据到实存的过渡如何重构？"]
+    },
+    {
+      "id": "concept-thing",
+      "filename": "thing.md",
+      "preferred_label": "物",
+      "original_terms": [{"language": "de", "value": "Ding"}],
+      "alternative_labels": ["事物"],
+      "related_concept_ids": ["concept-existence", "concept-property-quality", "concept-force"],
+      "candidate_contexts": ["《逻辑学》物及其属性", "《精神现象学》知觉中的物"],
+      "verification_questions": ["逻辑学与现象学中的“物”应建立几个语境义项？", "物与属性的关系在两部著作中有何不同？"]
+    },
+    {
+      "id": "concept-property-quality",
+      "filename": "property-quality.md",
+      "preferred_label": "属性",
+      "original_terms": [{"language": "de", "value": "Eigenschaft"}],
+      "alternative_labels": ["特性"],
+      "related_concept_ids": ["concept-thing", "concept-perception"],
+      "candidate_contexts": ["《逻辑学》物及其属性", "《精神现象学》知觉"],
+      "verification_questions": ["Eigenschaft与法哲学中的Eigentum必须如何区分？", "属性的独立性与物的统一如何构成问题？"]
+    },
+    {
+      "id": "concept-force",
+      "filename": "force.md",
+      "preferred_label": "力",
+      "original_terms": [{"language": "de", "value": "Kraft"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-appearance", "concept-understanding"],
+      "candidate_contexts": ["《精神现象学》力与知性", "《逻辑学》现象相关段落"],
+      "verification_questions": ["现象学中的力与自然科学力概念的关系应如何说明？", "力的表现与内在性的论证如何展开？"]
+    },
+    {
+      "id": "concept-appearance",
+      "filename": "appearance.md",
+      "preferred_label": "现象",
+      "original_terms": [{"language": "de", "value": "Erscheinung"}],
+      "alternative_labels": ["显现"],
+      "related_concept_ids": ["concept-essence", "concept-actuality", "concept-force"],
+      "candidate_contexts": ["《逻辑学》现象", "《精神现象学》意识经验的显现问题"],
+      "verification_questions": ["Erscheinung在逻辑学和书名中的译法是否一致？", "如何避免把现象贬低为纯粹假象？"]
+    },
+    {
+      "id": "concept-actuality",
+      "filename": "actuality.md",
+      "preferred_label": "现实性",
+      "original_terms": [{"language": "de", "value": "Wirklichkeit"}],
+      "alternative_labels": ["现实"],
+      "related_concept_ids": ["concept-appearance", "concept-possibility", "concept-necessity"],
+      "candidate_contexts": ["《逻辑学》现实性", "《法哲学原理》序言相关命题"],
+      "verification_questions": ["Wirklichkeit与普通“现实存在”的区别是什么？", "如何避免把“现实的就是合理的”解释成对一切现状的辩护？"]
+    },
+    {
+      "id": "concept-possibility",
+      "filename": "possibility.md",
+      "preferred_label": "可能性",
+      "original_terms": [{"language": "de", "value": "Möglichkeit"}],
+      "alternative_labels": ["可能"],
+      "related_concept_ids": ["concept-actuality", "concept-contingency", "concept-necessity"],
+      "candidate_contexts": ["《逻辑学》现实性中的可能性", "《哲学全书》本质论"],
+      "verification_questions": ["形式可能性与实在可能性如何区分？", "可能性与现实性的关系是否能简化为时间先后？"]
+    },
+    {
+      "id": "concept-contingency",
+      "filename": "contingency.md",
+      "preferred_label": "偶然性",
+      "original_terms": [{"language": "de", "value": "Zufälligkeit"}],
+      "alternative_labels": ["偶然"],
+      "related_concept_ids": ["concept-possibility", "concept-necessity"],
+      "candidate_contexts": ["《逻辑学》现实性中的偶然性", "《历史哲学讲演录》历史事件与理性"],
+      "verification_questions": ["逻辑范畴与历史叙述中的偶然性应否分卡？", "如何避免将世界历史解释为排除一切偶然？"]
+    },
+    {
+      "id": "concept-necessity",
+      "filename": "necessity.md",
+      "preferred_label": "必然性",
+      "original_terms": [{"language": "de", "value": "Notwendigkeit"}],
+      "alternative_labels": ["必然"],
+      "related_concept_ids": ["concept-contingency", "concept-actuality", "concept-freedom"],
+      "candidate_contexts": ["《逻辑学》必然性", "《历史哲学讲演录》世界历史进程"],
+      "verification_questions": ["绝对必然性与机械决定论如何区分？", "历史必然性是否是文本概念还是后世概括？"]
+    },
+    {
+      "id": "concept-concept",
+      "filename": "concept.md",
+      "preferred_label": "概念",
+      "original_terms": [{"language": "de", "value": "Begriff"}],
+      "alternative_labels": ["理念性概念"],
+      "related_concept_ids": ["concept-universality", "concept-particularity", "concept-individuality"],
+      "candidate_contexts": ["《逻辑学》概念论", "《哲学全书》逻辑学的概念"],
+      "verification_questions": ["Begriff与日常所谓“概念”有什么关键区别？", "概念的普遍、特殊、个别三个环节如何说明？"]
+    },
+    {
+      "id": "concept-universality",
+      "filename": "universality.md",
+      "preferred_label": "普遍性",
+      "original_terms": [{"language": "de", "value": "Allgemeinheit"}],
+      "alternative_labels": ["普遍"],
+      "related_concept_ids": ["concept-concept", "concept-particularity", "concept-individuality"],
+      "candidate_contexts": ["《逻辑学》主观概念", "《法哲学原理》意志与法的普遍性"],
+      "verification_questions": ["逻辑学和法哲学中的普遍性应如何分层？", "具体普遍性与抽象普遍性有什么差别？"]
+    },
+    {
+      "id": "concept-particularity",
+      "filename": "particularity.md",
+      "preferred_label": "特殊性",
+      "original_terms": [{"language": "de", "value": "Besonderheit"}],
+      "alternative_labels": ["特殊"],
+      "related_concept_ids": ["concept-universality", "concept-individuality", "concept-concept"],
+      "candidate_contexts": ["《逻辑学》主观概念", "《法哲学原理》市民社会的特殊利益"],
+      "verification_questions": ["Besonderheit与Einzelheit的译名边界是什么？", "特殊性在市民社会中承担何种结构作用？"]
+    },
+    {
+      "id": "concept-individuality",
+      "filename": "individuality.md",
+      "preferred_label": "个别性",
+      "original_terms": [{"language": "de", "value": "Einzelheit"}],
+      "alternative_labels": ["个别"],
+      "related_concept_ids": ["concept-universality", "concept-particularity", "concept-individual"],
+      "candidate_contexts": ["《逻辑学》主观概念", "《哲学全书》主观精神相关段落"],
+      "verification_questions": ["个别性与经验意义上的单个对象有何不同？", "Einzelheit与Individualität应如何区分？"]
+    },
+    {
+      "id": "concept-judgment",
+      "filename": "judgment.md",
+      "preferred_label": "判断",
+      "original_terms": [{"language": "de", "value": "Urteil"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-concept", "concept-syllogism"],
+      "candidate_contexts": ["《逻辑学》判断", "《哲学全书》逻辑学概念论"],
+      "verification_questions": ["判断为何被理解为概念的原始划分？", "判断类型的译名与顺序需依据哪个版本核对？"]
+    },
+    {
+      "id": "concept-syllogism",
+      "filename": "syllogism.md",
+      "preferred_label": "推论",
+      "original_terms": [{"language": "de", "value": "Schluss"}],
+      "alternative_labels": ["三段论"],
+      "related_concept_ids": ["concept-judgment", "concept-mediation", "concept-objectivity"],
+      "candidate_contexts": ["《逻辑学》推论", "《哲学全书》逻辑学概念论"],
+      "verification_questions": ["Schluss在目标版本中采用“推论”还是“三段论”？", "为何推论不限于形式逻辑的三段式？"]
+    },
+    {
+      "id": "concept-objectivity",
+      "filename": "objectivity.md",
+      "preferred_label": "客观性",
+      "original_terms": [{"language": "de", "value": "Objektivität"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-concept", "concept-mechanism", "concept-idea"],
+      "candidate_contexts": ["《逻辑学》客观性", "《哲学全书》逻辑学概念论"],
+      "verification_questions": ["逻辑学中的客观性为何不能等同于认识论中的中立客观？", "从主观概念到客观性的过渡如何说明？"]
+    },
+    {
+      "id": "concept-mechanism",
+      "filename": "mechanism.md",
+      "preferred_label": "机械性",
+      "original_terms": [{"language": "de", "value": "Mechanismus"}],
+      "alternative_labels": ["机械关系"],
+      "related_concept_ids": ["concept-objectivity", "concept-chemism", "concept-teleology"],
+      "candidate_contexts": ["《逻辑学》客观性中的机械性", "《哲学全书》逻辑学概念论"],
+      "verification_questions": ["Mechanismus是自然科学术语还是逻辑范畴？", "机械性、化学性和目的性的递进根据是什么？"]
+    },
+    {
+      "id": "concept-chemism",
+      "filename": "chemism.md",
+      "preferred_label": "化学性",
+      "original_terms": [{"language": "de", "value": "Chemismus"}],
+      "alternative_labels": ["化学关系"],
+      "related_concept_ids": ["concept-mechanism", "concept-teleology"],
+      "candidate_contexts": ["《逻辑学》客观性中的化学性", "《哲学全书》逻辑学概念论"],
+      "verification_questions": ["化学性作为逻辑范畴与经验化学的关系是什么？", "其对象关系为何超出机械外在性？"]
+    },
+    {
+      "id": "concept-teleology",
+      "filename": "teleology.md",
+      "preferred_label": "目的性",
+      "original_terms": [{"language": "de", "value": "Teleologie"}],
+      "alternative_labels": ["目的论"],
+      "related_concept_ids": ["concept-mechanism", "concept-idea", "concept-cunning-of-reason"],
+      "candidate_contexts": ["《逻辑学》目的性", "《历史哲学讲演录》理性与人的目的"],
+      "verification_questions": ["Teleologie何时译作目的性，何时译作目的论？", "逻辑目的性与历史目的论解读应如何区分？"]
+    },
+    {
+      "id": "concept-idea",
+      "filename": "idea.md",
+      "preferred_label": "理念",
+      "original_terms": [{"language": "de", "value": "Idee"}],
+      "alternative_labels": ["观念"],
+      "related_concept_ids": ["concept-concept", "concept-objectivity", "concept-absolute-idea"],
+      "candidate_contexts": ["《逻辑学》理念", "《哲学全书》逻辑学结尾"],
+      "verification_questions": ["Idee与Vorstellung在中文译名上必须如何区分？", "理念为何不是主观头脑中的想法？"]
+    },
+    {
+      "id": "concept-life",
+      "filename": "life.md",
+      "preferred_label": "生命",
+      "original_terms": [{"language": "de", "value": "Leben"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-idea", "concept-cognition", "concept-desire"],
+      "candidate_contexts": ["《逻辑学》生命理念", "《精神现象学》自我意识中的生命"],
+      "verification_questions": ["逻辑学和现象学中的生命应建立哪些独立语境？", "生命概念与经验生物学的关系边界是什么？"]
+    },
+    {
+      "id": "concept-cognition",
+      "filename": "cognition.md",
+      "preferred_label": "认识",
+      "original_terms": [{"language": "de", "value": "Erkennen"}],
+      "alternative_labels": ["认知"],
+      "related_concept_ids": ["concept-idea", "concept-theoretical-idea", "concept-practical-idea"],
+      "candidate_contexts": ["《逻辑学》认识理念", "《哲学全书》主观精神中的认识"],
+      "verification_questions": ["Erkennen与Wissen的译名和概念边界是什么？", "理论理念与实践理念如何构成认识的结构？"]
+    },
+    {
+      "id": "concept-theoretical-idea",
+      "filename": "theoretical-idea.md",
+      "preferred_label": "理论理念",
+      "original_terms": [{"language": "de", "value": "theoretische Idee"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-cognition", "concept-practical-idea"],
+      "candidate_contexts": ["《逻辑学》认识理念中的理论理念"],
+      "verification_questions": ["理论理念的目标和局限如何从原文定位？", "它与主观精神中的理论精神是否应分别建卡？"]
+    },
+    {
+      "id": "concept-practical-idea",
+      "filename": "practical-idea.md",
+      "preferred_label": "实践理念",
+      "original_terms": [{"language": "de", "value": "praktische Idee"}],
+      "alternative_labels": ["善的理念"],
+      "related_concept_ids": ["concept-cognition", "concept-theoretical-idea", "concept-good"],
+      "candidate_contexts": ["《逻辑学》认识理念中的善的理念"],
+      "verification_questions": ["实践理念与法哲学中的善应如何区分？", "理论与实践理念的统一怎样导向绝对理念？"]
+    },
+    {
+      "id": "concept-absolute-idea",
+      "filename": "absolute-idea.md",
+      "preferred_label": "绝对理念",
+      "original_terms": [{"language": "de", "value": "absolute Idee"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-idea", "concept-method", "concept-nature"],
+      "candidate_contexts": ["《逻辑学》绝对理念", "《哲学全书》从逻辑理念到自然的过渡"],
+      "verification_questions": ["绝对理念与“知道一切的思想”有何不同？", "方法、体系和向自然过渡的关系如何解释？"]
+    },
+    {
+      "id": "concept-method",
+      "filename": "method.md",
+      "preferred_label": "方法",
+      "original_terms": [{"language": "de", "value": "Methode"}],
+      "alternative_labels": ["思辨方法"],
+      "related_concept_ids": ["concept-absolute-idea", "concept-dialectic", "concept-system"],
+      "candidate_contexts": ["《逻辑学》绝对理念中的方法", "《哲学全书》逻辑学导论"],
+      "verification_questions": ["黑格尔的方法能否概括为固定三段式？", "方法为何被说成内容自身的运动？"]
+    },
+    {
+      "id": "concept-dialectic",
+      "filename": "dialectic.md",
+      "preferred_label": "辩证法",
+      "original_terms": [{"language": "de", "value": "Dialektik"}, {"language": "de", "value": "dialektisch"}],
+      "alternative_labels": ["辩证的环节"],
+      "related_concept_ids": ["concept-understanding", "concept-speculative", "concept-method"],
+      "candidate_contexts": ["《哲学全书》逻辑学导论的三个环节", "《逻辑学》方法相关段落"],
+      "verification_questions": ["“正反合”是否适合用作黑格尔辩证法的总公式？", "辩证环节与思辨环节如何区分？"]
+    },
+    {
+      "id": "concept-speculative",
+      "filename": "speculative.md",
+      "preferred_label": "思辨",
+      "original_terms": [{"language": "de", "value": "das Spekulative"}, {"language": "de", "value": "spekulativ"}],
+      "alternative_labels": ["肯定理性的环节"],
+      "related_concept_ids": ["concept-dialectic", "concept-reason", "concept-understanding"],
+      "candidate_contexts": ["《哲学全书》逻辑学导论", "《精神现象学》序言的方法论说明"],
+      "verification_questions": ["思辨与脱离证据的“猜想”有什么不同？", "理智、辩证和思辨三个环节如何连接？"]
+    },
+    {
+      "id": "concept-sublation",
+      "filename": "sublation.md",
+      "preferred_label": "扬弃",
+      "original_terms": [{"language": "de", "value": "Aufhebung"}, {"language": "de", "value": "aufheben"}],
+      "alternative_labels": ["取消并保存"],
+      "related_concept_ids": ["concept-negation", "concept-determinate-negation", "concept-becoming"],
+      "candidate_contexts": ["《逻辑学》存在论与方法相关段落", "《精神现象学》经验形态的过渡"],
+      "verification_questions": ["取消、保存和提升三重含义如何避免被机械套用？", "哪些中文解释把扬弃误写成简单折中？"]
+    },
+    {
+      "id": "concept-negation",
+      "filename": "negation.md",
+      "preferred_label": "否定",
+      "original_terms": [{"language": "de", "value": "Negation"}],
+      "alternative_labels": ["否定性"],
+      "related_concept_ids": ["concept-determinate-negation", "concept-sublation", "concept-contradiction"],
+      "candidate_contexts": ["《逻辑学》多个论证层次", "《精神现象学》序言与经验进程"],
+      "verification_questions": ["否定与否定性是否需要拆分入口？", "逻辑否定、实际破坏和规定性之间如何区分？"]
+    },
+    {
+      "id": "concept-determinate-negation",
+      "filename": "determinate-negation.md",
+      "preferred_label": "规定的否定",
+      "original_terms": [{"language": "de", "value": "bestimmte Negation"}],
+      "alternative_labels": ["确定的否定"],
+      "related_concept_ids": ["concept-negation", "concept-sublation", "concept-experience"],
+      "candidate_contexts": ["《精神现象学》导论", "《逻辑学》方法相关段落"],
+      "verification_questions": ["规定的否定为何不是无内容地说“不”？", "现象学和逻辑学中的用法是否需要分开解释？"]
+    },
+    {
+      "id": "concept-immediacy",
+      "filename": "immediacy.md",
+      "preferred_label": "直接性",
+      "original_terms": [{"language": "de", "value": "Unmittelbarkeit"}],
+      "alternative_labels": ["无中介性"],
+      "related_concept_ids": ["concept-mediation", "concept-being", "concept-sense-certainty"],
+      "candidate_contexts": ["《逻辑学》存在与反思", "《精神现象学》感性确定性"],
+      "verification_questions": ["直接性是绝对无中介还是被扬弃的中介结果？", "不同著作中的直接性应建立哪些语境卡？"]
+    },
+    {
+      "id": "concept-mediation",
+      "filename": "mediation.md",
+      "preferred_label": "中介",
+      "original_terms": [{"language": "de", "value": "Vermittlung"}],
+      "alternative_labels": ["居间作用"],
+      "related_concept_ids": ["concept-immediacy", "concept-reflection", "concept-syllogism"],
+      "candidate_contexts": ["《逻辑学》反思与概念", "《精神现象学》序言"],
+      "verification_questions": ["中介为何不只是外部工具或第三方？", "直接性与中介如何相互规定？"]
+    },
+    {
+      "id": "concept-totality",
+      "filename": "totality.md",
+      "preferred_label": "总体性",
+      "original_terms": [{"language": "de", "value": "Totalität"}],
+      "alternative_labels": ["全体", "整体性"],
+      "related_concept_ids": ["concept-system", "concept-concept", "concept-whole"],
+      "candidate_contexts": ["《逻辑学》概念及其环节", "《精神现象学》序言中的整体"],
+      "verification_questions": ["Totalität、Ganzes和Allheit的译名边界是什么？", "总体性是否意味着压平内部差异？"]
+    },
+    {
+      "id": "concept-whole",
+      "filename": "whole.md",
+      "preferred_label": "整体",
+      "original_terms": [{"language": "de", "value": "das Ganze"}],
+      "alternative_labels": ["全体"],
+      "related_concept_ids": ["concept-totality", "concept-system", "concept-truth"],
+      "candidate_contexts": ["《精神现象学》序言", "《哲学全书》体系结构"],
+      "verification_questions": ["“真理是整体”应怎样放回原论证理解？", "整体与完成过程之间是什么关系？"]
+    },
+    {
+      "id": "concept-system",
+      "filename": "system.md",
+      "preferred_label": "体系",
+      "original_terms": [{"language": "de", "value": "System"}],
+      "alternative_labels": ["系统"],
+      "related_concept_ids": ["concept-whole", "concept-method", "concept-encyclopedia"],
+      "candidate_contexts": ["《哲学全书》整体结构", "《精神现象学》序言", "《逻辑学》导论"],
+      "verification_questions": ["体系与封闭、静止的知识目录有何不同？", "《精神现象学》在成熟体系中的位置存在哪些解释分歧？"]
+    },
+    {
+      "id": "concept-encyclopedia",
+      "filename": "encyclopedia.md",
+      "preferred_label": "哲学全书",
+      "original_terms": [{"language": "de", "value": "Enzyklopädie der philosophischen Wissenschaften"}],
+      "alternative_labels": ["哲学科学百科全书"],
+      "related_concept_ids": ["concept-system", "concept-logic", "concept-nature", "concept-spirit"],
+      "candidate_contexts": ["《哲学全书》导论与逻辑学、自然哲学、精神哲学三部分"],
+      "verification_questions": ["书名与作为体系形式的“全书”应如何区分？", "不同版次的段落结构和附释如何记录？"]
+    },
+    {
+      "id": "concept-logic",
+      "filename": "logic.md",
+      "preferred_label": "逻辑学",
+      "original_terms": [{"language": "de", "value": "Logik"}],
+      "alternative_labels": ["逻辑"],
+      "related_concept_ids": ["concept-system", "concept-nature", "concept-spirit"],
+      "candidate_contexts": ["《逻辑学》导论", "《哲学全书》逻辑学部分"],
+      "verification_questions": ["黑格尔逻辑学与形式逻辑的范围有何不同？", "大逻辑与小逻辑的对应关系如何建模？"]
+    },
+    {
+      "id": "concept-nature",
+      "filename": "nature.md",
+      "preferred_label": "自然",
+      "original_terms": [{"language": "de", "value": "Natur"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-absolute-idea", "concept-spirit", "concept-system"],
+      "candidate_contexts": ["《哲学全书》自然哲学", "《逻辑学》绝对理念结尾"],
+      "verification_questions": ["自然作为理念的外在性应如何避免神秘化表述？", "本项目未纳入完整自然哲学时，应如何标注范围？"]
+    },
+    {
+      "id": "concept-spirit",
+      "filename": "spirit.md",
+      "preferred_label": "精神",
+      "original_terms": [{"language": "de", "value": "Geist"}],
+      "alternative_labels": ["心灵"],
+      "related_concept_ids": ["concept-subjective-spirit", "concept-objective-spirit", "concept-absolute-spirit"],
+      "candidate_contexts": ["《精神现象学》精神章及全书结构", "《哲学全书》精神哲学"],
+      "verification_questions": ["Geist在不同语境何时译作精神、心灵或民族精神？", "如何避免把精神当作超自然实体？"]
+    },
+    {
+      "id": "concept-subjective-spirit",
+      "filename": "subjective-spirit.md",
+      "preferred_label": "主观精神",
+      "original_terms": [{"language": "de", "value": "subjektiver Geist"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-spirit", "concept-objective-spirit", "concept-soul"],
+      "candidate_contexts": ["《哲学全书》精神哲学的主观精神"],
+      "verification_questions": ["主观精神的人类学、精神现象学和心理学层次如何区分？", "它与《精神现象学》全书的关系如何说明？"]
+    },
+    {
+      "id": "concept-objective-spirit",
+      "filename": "objective-spirit.md",
+      "preferred_label": "客观精神",
+      "original_terms": [{"language": "de", "value": "objektiver Geist"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-spirit", "concept-subjective-spirit", "concept-absolute-spirit", "concept-right"],
+      "candidate_contexts": ["《哲学全书》客观精神", "《法哲学原理》整体结构"],
+      "verification_questions": ["客观精神为何不是与主观意见相对的“客观事实”？", "它与法、道德和伦理生活的关系如何组织？"]
+    },
+    {
+      "id": "concept-absolute-spirit",
+      "filename": "absolute-spirit.md",
+      "preferred_label": "绝对精神",
+      "original_terms": [{"language": "de", "value": "absoluter Geist"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-spirit", "concept-art", "concept-religion", "concept-philosophy"],
+      "candidate_contexts": ["《哲学全书》绝对精神", "《精神现象学》宗教与绝对知识"],
+      "verification_questions": ["绝对精神与绝对理念、绝对知识如何区分？", "艺术、宗教、哲学三种形态的关系是否能简化为价值高低？"]
+    },
+    {
+      "id": "concept-soul",
+      "filename": "soul.md",
+      "preferred_label": "灵魂",
+      "original_terms": [{"language": "de", "value": "Seele"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-subjective-spirit", "concept-consciousness", "concept-habit"],
+      "candidate_contexts": ["《哲学全书》主观精神的人类学"],
+      "verification_questions": ["灵魂概念与宗教意义的灵魂如何区分？", "自然灵魂、感觉灵魂和现实灵魂的层次如何定位？"]
+    },
+    {
+      "id": "concept-habit",
+      "filename": "habit.md",
+      "preferred_label": "习惯",
+      "original_terms": [{"language": "de", "value": "Gewohnheit"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-soul", "concept-freedom"],
+      "candidate_contexts": ["《哲学全书》主观精神的人类学"],
+      "verification_questions": ["习惯在身体化与自由之间发挥什么作用？", "后世对习惯的扩展解释哪些可追溯到原文？"]
+    },
+    {
+      "id": "concept-consciousness",
+      "filename": "consciousness.md",
+      "preferred_label": "意识",
+      "original_terms": [{"language": "de", "value": "Bewusstsein"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-self-consciousness", "concept-object", "concept-experience"],
+      "candidate_contexts": ["《精神现象学》意识章", "《哲学全书》主观精神的现象学"],
+      "verification_questions": ["意识与对象的结构在两部著作中如何对应？", "意识诸形态与日常心理状态有何不同？"]
+    },
+    {
+      "id": "concept-object",
+      "filename": "object.md",
+      "preferred_label": "对象",
+      "original_terms": [{"language": "de", "value": "Gegenstand"}, {"language": "de", "value": "Objekt"}],
+      "alternative_labels": ["客体"],
+      "related_concept_ids": ["concept-consciousness", "concept-subject", "concept-objectivity"],
+      "candidate_contexts": ["《精神现象学》意识与对象", "《逻辑学》客观性"],
+      "verification_questions": ["Gegenstand与Objekt在目标文本中如何区分译名？", "对象改变与意识经验之间是什么关系？"]
+    },
+    {
+      "id": "concept-experience",
+      "filename": "experience.md",
+      "preferred_label": "经验",
+      "original_terms": [{"language": "de", "value": "Erfahrung"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-consciousness", "concept-determinate-negation", "concept-phenomenology"],
+      "candidate_contexts": ["《精神现象学》导论中的意识经验"],
+      "verification_questions": ["Erfahrung与经验主义意义的经验有何不同？", "意识、对象和新对象的形成步骤如何准确重构？"]
+    },
+    {
+      "id": "concept-phenomenology",
+      "filename": "phenomenology.md",
+      "preferred_label": "精神现象学",
+      "original_terms": [{"language": "de", "value": "Phänomenologie des Geistes"}],
+      "alternative_labels": ["精神的现象学"],
+      "related_concept_ids": ["concept-consciousness", "concept-experience", "concept-science"],
+      "candidate_contexts": ["《精神现象学》序言与导论", "《哲学全书》主观精神的精神现象学"],
+      "verification_questions": ["书名、学科环节和方法路径三种用法如何区分？", "两种精神现象学结构的关系存在哪些研究分歧？"]
+    },
+    {
+      "id": "concept-science",
+      "filename": "science.md",
+      "preferred_label": "科学",
+      "original_terms": [{"language": "de", "value": "Wissenschaft"}],
+      "alternative_labels": ["体系化知识"],
+      "related_concept_ids": ["concept-phenomenology", "concept-system", "concept-knowing"],
+      "candidate_contexts": ["《精神现象学》序言", "《逻辑学》导论", "《哲学全书》书名与导论"],
+      "verification_questions": ["Wissenschaft与现代自然科学的范围有何不同？", "哲学成为科学的要求在不同著作中如何表述？"]
+    },
+    {
+      "id": "concept-truth",
+      "filename": "truth.md",
+      "preferred_label": "真理",
+      "original_terms": [{"language": "de", "value": "Wahrheit"}],
+      "alternative_labels": ["真实"],
+      "related_concept_ids": ["concept-whole", "concept-concept", "concept-knowing"],
+      "candidate_contexts": ["《精神现象学》序言", "《逻辑学》理念"],
+      "verification_questions": ["“真理是整体”与具体判断的真假如何关联？", "真理作为概念与客观性的统一如何说明？"]
+    },
+    {
+      "id": "concept-sense-certainty",
+      "filename": "sense-certainty.md",
+      "preferred_label": "感性确定性",
+      "original_terms": [{"language": "de", "value": "sinnliche Gewissheit"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-consciousness", "concept-perception", "concept-immediacy"],
+      "candidate_contexts": ["《精神现象学》意识章的感性确定性"],
+      "verification_questions": ["感性确定性声称的丰富性与实际表达的贫乏如何说明？", "“这一个”“现在”“这里”的论证如何避免被过度简化？"]
+    },
+    {
+      "id": "concept-perception",
+      "filename": "perception.md",
+      "preferred_label": "知觉",
+      "original_terms": [{"language": "de", "value": "Wahrnehmung"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-sense-certainty", "concept-thing", "concept-understanding"],
+      "candidate_contexts": ["《精神现象学》知觉章", "《哲学全书》意识相关段落"],
+      "verification_questions": ["知觉中的一与多、物与属性如何构成矛盾？", "Wahrnehmung的词源解释是否有文本依据？"]
+    },
+    {
+      "id": "concept-understanding",
+      "filename": "understanding.md",
+      "preferred_label": "知性",
+      "original_terms": [{"language": "de", "value": "Verstand"}],
+      "alternative_labels": ["理智"],
+      "related_concept_ids": ["concept-force", "concept-reason", "concept-dialectic"],
+      "candidate_contexts": ["《精神现象学》力与知性", "《哲学全书》逻辑学导论"],
+      "verification_questions": ["Verstand采用“知性”或“理智”会怎样影响术语体系？", "知性作为必要环节与知性片面化的批评如何兼容？"]
+    },
+    {
+      "id": "concept-self-consciousness",
+      "filename": "self-consciousness.md",
+      "preferred_label": "自我意识",
+      "original_terms": [{"language": "de", "value": "Selbstbewusstsein"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-consciousness", "concept-desire", "concept-recognition"],
+      "candidate_contexts": ["《精神现象学》自我意识章", "《哲学全书》主观精神"],
+      "verification_questions": ["自我意识为何不只是内省或知道自己？", "欲望、承认与普遍自我意识的关系如何分语境处理？"]
+    },
+    {
+      "id": "concept-desire",
+      "filename": "desire.md",
+      "preferred_label": "欲望",
+      "original_terms": [{"language": "de", "value": "Begierde"}],
+      "alternative_labels": ["欲求"],
+      "related_concept_ids": ["concept-self-consciousness", "concept-life", "concept-recognition"],
+      "candidate_contexts": ["《精神现象学》自我意识开端"],
+      "verification_questions": ["Begierde应译为欲望还是欲求？", "欲望对对象的否定为何不能稳定满足自我意识？"]
+    },
+    {
+      "id": "concept-recognition",
+      "filename": "recognition.md",
+      "preferred_label": "承认",
+      "original_terms": [{"language": "de", "value": "Anerkennung"}],
+      "alternative_labels": ["认可", "相互承认"],
+      "related_concept_ids": ["concept-self-consciousness", "concept-desire", "concept-lordship-bondage"],
+      "candidate_contexts": ["《精神现象学》自我意识", "《法哲学原理》人格、权利与伦理关系的候选语境"],
+      "verification_questions": ["现象学和法哲学中的承认是否应建立多个语境义项？", "如何区分黑格尔文本与后世承认理论的重构？"]
+    },
+    {
+      "id": "concept-lordship-bondage",
+      "filename": "lordship-bondage.md",
+      "preferred_label": "主人与奴隶",
+      "original_terms": [{"language": "de", "value": "Herrschaft und Knechtschaft"}],
+      "alternative_labels": ["主奴关系", "支配与依附"],
+      "related_concept_ids": ["concept-recognition", "concept-labor", "concept-fear"],
+      "candidate_contexts": ["《精神现象学》独立与不独立的自我意识"],
+      "verification_questions": ["Herrschaft与Knechtschaft的译名如何减少历史投射？", "主人、从属意识、劳动和承认之间的关系如何准确表述？"]
+    },
+    {
+      "id": "concept-fear",
+      "filename": "fear.md",
+      "preferred_label": "恐惧",
+      "original_terms": [{"language": "de", "value": "Furcht"}],
+      "alternative_labels": ["畏惧"],
+      "related_concept_ids": ["concept-lordship-bondage", "concept-labor"],
+      "candidate_contexts": ["《精神现象学》主人与奴隶论证"],
+      "verification_questions": ["对死亡的恐惧在从属意识形成中有何作用？", "如何避免把该环节心理学化为一般害怕？"]
+    },
+    {
+      "id": "concept-labor",
+      "filename": "labor.md",
+      "preferred_label": "劳动",
+      "original_terms": [{"language": "de", "value": "Arbeit"}],
+      "alternative_labels": ["劳作"],
+      "related_concept_ids": ["concept-lordship-bondage", "concept-fear", "concept-culture"],
+      "candidate_contexts": ["《精神现象学》主人与奴隶论证", "《法哲学原理》需要体系与劳动"],
+      "verification_questions": ["现象学与法哲学中的劳动应如何分语境？", "劳动的延迟欲望和塑形作用如何定位原文？"]
+    },
+    {
+      "id": "concept-unhappy-consciousness",
+      "filename": "unhappy-consciousness.md",
+      "preferred_label": "苦恼意识",
+      "original_terms": [{"language": "de", "value": "unglückliches Bewusstsein"}],
+      "alternative_labels": ["不幸意识"],
+      "related_concept_ids": ["concept-self-consciousness", "concept-alienation", "concept-religion"],
+      "candidate_contexts": ["《精神现象学》自我意识章的苦恼意识"],
+      "verification_questions": ["采用“苦恼”还是“不幸”应怎样处理版本差异？", "可变意识与不变本质的分裂如何说明？"]
+    },
+    {
+      "id": "concept-reason",
+      "filename": "reason.md",
+      "preferred_label": "理性",
+      "original_terms": [{"language": "de", "value": "Vernunft"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-understanding", "concept-spirit", "concept-rationality"],
+      "candidate_contexts": ["《精神现象学》理性章", "《哲学全书》逻辑学导论", "《历史哲学讲演录》理性统治世界"],
+      "verification_questions": ["不同著作中的理性是否需要多个语境义项？", "如何避免把理性简单理解为个人计算能力？"]
+    },
+    {
+      "id": "concept-rationality",
+      "filename": "rationality.md",
+      "preferred_label": "合理性",
+      "original_terms": [{"language": "de", "value": "Vernünftigkeit"}],
+      "alternative_labels": ["理性性"],
+      "related_concept_ids": ["concept-reason", "concept-actuality", "concept-state"],
+      "candidate_contexts": ["《法哲学原理》序言与国家", "《历史哲学讲演录》世界历史的理性"],
+      "verification_questions": ["“合理”与“合乎理性”在翻译上如何避免价值偷换？", "合理性与现实性的关系怎样排除对现状的无条件辩护？"]
+    },
+    {
+      "id": "concept-individual",
+      "filename": "individual.md",
+      "preferred_label": "个体",
+      "original_terms": [{"language": "de", "value": "Individuum"}],
+      "alternative_labels": ["个人"],
+      "related_concept_ids": ["concept-individuality", "concept-community", "concept-freedom"],
+      "candidate_contexts": ["《精神现象学》理性与精神", "《法哲学原理》个人与伦理制度"],
+      "verification_questions": ["Individuum、Einzelner和Person的译名边界是什么？", "个体与普遍制度的关系如何避免集体主义式简化？"]
+    },
+    {
+      "id": "concept-spirit-world",
+      "filename": "spirit-world.md",
+      "preferred_label": "精神世界",
+      "original_terms": [{"language": "de", "value": "geistige Welt"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-spirit", "concept-ethical-life", "concept-culture"],
+      "candidate_contexts": ["《精神现象学》精神章"],
+      "verification_questions": ["精神世界与超自然世界如何区分？", "伦理世界和教化世界是否应分设更具体入口？"]
+    },
+    {
+      "id": "concept-ethical-life",
+      "filename": "ethical-life.md",
+      "preferred_label": "伦理生活",
+      "original_terms": [{"language": "de", "value": "Sittlichkeit"}],
+      "alternative_labels": ["伦理", "伦理实体"],
+      "related_concept_ids": ["concept-morality", "concept-family", "concept-civil-society", "concept-state"],
+      "candidate_contexts": ["《精神现象学》伦理世界", "《法哲学原理》伦理生活"],
+      "verification_questions": ["Sittlichkeit采用“伦理”还是“伦理生活”更能区别Moralität？", "两部著作中的伦理生活应建立哪些独立语境？"]
+    },
+    {
+      "id": "concept-community",
+      "filename": "community.md",
+      "preferred_label": "共同体",
+      "original_terms": [{"language": "de", "value": "Gemeinwesen"}, {"language": "de", "value": "Gemeinschaft"}],
+      "alternative_labels": ["公共体"],
+      "related_concept_ids": ["concept-individual", "concept-ethical-life", "concept-state"],
+      "candidate_contexts": ["《精神现象学》伦理世界与精神", "《法哲学原理》伦理制度"],
+      "verification_questions": ["Gemeinwesen与Gemeinschaft在具体段落中如何区分？", "共同体是否是黑格尔体系中的单一正式范畴？"]
+    },
+    {
+      "id": "concept-culture",
+      "filename": "culture.md",
+      "preferred_label": "教化",
+      "original_terms": [{"language": "de", "value": "Bildung"}],
+      "alternative_labels": ["陶冶", "文化", "形成"],
+      "related_concept_ids": ["concept-alienation", "concept-labor", "concept-spirit"],
+      "candidate_contexts": ["《精神现象学》教化及其现实王国", "《法哲学原理》教育和社会化相关段落"],
+      "verification_questions": ["Bildung在不同语境应译为教化、陶冶还是形成？", "教化、异化与社会世界的关系如何定位？"]
+    },
+    {
+      "id": "concept-alienation",
+      "filename": "alienation.md",
+      "preferred_label": "异化",
+      "original_terms": [{"language": "de", "value": "Entfremdung"}, {"language": "de", "value": "Entäußerung"}],
+      "alternative_labels": ["外化", "自我异化"],
+      "related_concept_ids": ["concept-culture", "concept-spirit", "concept-reconciliation"],
+      "candidate_contexts": ["《精神现象学》精神与宗教相关段落", "后世马克思主义解释的对照研究"],
+      "verification_questions": ["Entfremdung与Entäußerung能否都译作“异化”？", "如何区分黑格尔文本与马克思及后世理论的改造？"]
+    },
+    {
+      "id": "concept-reconciliation",
+      "filename": "reconciliation.md",
+      "preferred_label": "和解",
+      "original_terms": [{"language": "de", "value": "Versöhnung"}],
+      "alternative_labels": ["调和"],
+      "related_concept_ids": ["concept-alienation", "concept-freedom", "concept-philosophy"],
+      "candidate_contexts": ["《精神现象学》宗教与绝对知识", "《法哲学原理》序言", "《哲学史讲演录》哲学与时代"],
+      "verification_questions": ["和解是否意味着接受一切现实制度？", "认识上的和解与社会政治实践的关系存在哪些解释争议？"]
+    },
+    {
+      "id": "concept-religion",
+      "filename": "religion.md",
+      "preferred_label": "宗教",
+      "original_terms": [{"language": "de", "value": "Religion"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-art", "concept-absolute-spirit", "concept-representation"],
+      "candidate_contexts": ["《精神现象学》宗教章", "《哲学全书》绝对精神"],
+      "verification_questions": ["现象学与成熟体系中的宗教结构如何对应？", "宗教表象与哲学概念的关系如何避免价值贬低式描述？"]
+    },
+    {
+      "id": "concept-representation",
+      "filename": "representation.md",
+      "preferred_label": "表象",
+      "original_terms": [{"language": "de", "value": "Vorstellung"}],
+      "alternative_labels": ["观念表象"],
+      "related_concept_ids": ["concept-religion", "concept-concept", "concept-idea"],
+      "candidate_contexts": ["《精神现象学》宗教", "《哲学全书》主观精神与绝对精神"],
+      "verification_questions": ["Vorstellung与Idee、Begriff必须如何区分？", "宗教表象转化为哲学概念是否等于简单翻译？"]
+    },
+    {
+      "id": "concept-absolute-knowing",
+      "filename": "absolute-knowing.md",
+      "preferred_label": "绝对知识",
+      "original_terms": [{"language": "de", "value": "absolutes Wissen"}],
+      "alternative_labels": ["绝对知"],
+      "related_concept_ids": ["concept-knowing", "concept-spirit", "concept-reconciliation"],
+      "candidate_contexts": ["《精神现象学》绝对知识章"],
+      "verification_questions": ["绝对知识为何不等于全知全能或事实全集？", "它与逻辑学的开端及成熟体系是什么关系？"]
+    },
+    {
+      "id": "concept-knowing",
+      "filename": "knowing.md",
+      "preferred_label": "知识",
+      "original_terms": [{"language": "de", "value": "Wissen"}],
+      "alternative_labels": ["知"],
+      "related_concept_ids": ["concept-cognition", "concept-science", "concept-absolute-knowing"],
+      "candidate_contexts": ["《精神现象学》知识与真理", "《逻辑学》认识理念"],
+      "verification_questions": ["Wissen与Erkennen在中译中如何稳定区分？", "自然意识的知识与科学知识之间的关系如何说明？"]
+    },
+    {
+      "id": "concept-substance",
+      "filename": "substance.md",
+      "preferred_label": "实体",
+      "original_terms": [{"language": "de", "value": "Substanz"}],
+      "alternative_labels": ["实质"],
+      "related_concept_ids": ["concept-subject", "concept-actuality", "concept-spirit"],
+      "candidate_contexts": ["《精神现象学》序言的实体与主体", "《逻辑学》绝对关系"],
+      "verification_questions": ["“实体即主体”应怎样放回完整论证？", "逻辑学与现象学的实体概念应如何分卡？"]
+    },
+    {
+      "id": "concept-subject",
+      "filename": "subject.md",
+      "preferred_label": "主体",
+      "original_terms": [{"language": "de", "value": "Subjekt"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-substance", "concept-object", "concept-self-consciousness"],
+      "candidate_contexts": ["《精神现象学》序言", "《逻辑学》概念论", "《法哲学原理》意志主体"],
+      "verification_questions": ["主体在逻辑、现象学和法哲学中应建立几个语境？", "如何避免把主体等同于孤立个人意识？"]
+    },
+    {
+      "id": "concept-freedom",
+      "filename": "freedom.md",
+      "preferred_label": "自由",
+      "original_terms": [{"language": "de", "value": "Freiheit"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-will", "concept-right", "concept-ethical-life", "concept-world-history"],
+      "candidate_contexts": ["《法哲学原理》自由意志与伦理生活", "《历史哲学讲演录》自由意识的发展", "《哲学全书》精神哲学"],
+      "verification_questions": ["任意选择、消极自由和具体自由如何区分？", "法哲学与历史哲学中的自由应如何建立关联但不混并？"]
+    },
+    {
+      "id": "concept-will",
+      "filename": "will.md",
+      "preferred_label": "意志",
+      "original_terms": [{"language": "de", "value": "Wille"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-freedom", "concept-free-will", "concept-right"],
+      "candidate_contexts": ["《法哲学原理》导论", "《哲学全书》主观精神的实践精神"],
+      "verification_questions": ["意志的普遍、特殊和个别环节如何定位？", "意志与欲望、任性、理性选择如何区分？"]
+    },
+    {
+      "id": "concept-free-will",
+      "filename": "free-will.md",
+      "preferred_label": "自由意志",
+      "original_terms": [{"language": "de", "value": "freier Wille"}],
+      "alternative_labels": ["自由的意志"],
+      "related_concept_ids": ["concept-will", "concept-freedom", "concept-right"],
+      "candidate_contexts": ["《法哲学原理》导论"],
+      "verification_questions": ["自由意志为什么不等于随心所欲？", "意志自由与法的现实化之间是什么关系？"]
+    },
+    {
+      "id": "concept-right",
+      "filename": "right.md",
+      "preferred_label": "法",
+      "original_terms": [{"language": "de", "value": "Recht"}],
+      "alternative_labels": ["权利", "正当"],
+      "related_concept_ids": ["concept-freedom", "concept-abstract-right", "concept-morality", "concept-ethical-life"],
+      "candidate_contexts": ["《法哲学原理》导论与全书结构", "《哲学全书》客观精神"],
+      "verification_questions": ["Recht在具体段落应译作法、权利还是正当？", "广义法与抽象法的关系如何区分？"]
+    },
+    {
+      "id": "concept-abstract-right",
+      "filename": "abstract-right.md",
+      "preferred_label": "抽象法",
+      "original_terms": [{"language": "de", "value": "abstraktes Recht"}],
+      "alternative_labels": ["抽象权利"],
+      "related_concept_ids": ["concept-right", "concept-person", "concept-property-ownership", "concept-contract"],
+      "candidate_contexts": ["《法哲学原理》抽象法部分"],
+      "verification_questions": ["抽象法中的“抽象”是否是贬义？", "人格、所有权、契约与不法的结构如何组织？"]
+    },
+    {
+      "id": "concept-person",
+      "filename": "person.md",
+      "preferred_label": "人格",
+      "original_terms": [{"language": "de", "value": "Person"}, {"language": "de", "value": "Persönlichkeit"}],
+      "alternative_labels": ["人", "人格性"],
+      "related_concept_ids": ["concept-abstract-right", "concept-property-ownership", "concept-recognition"],
+      "candidate_contexts": ["《法哲学原理》抽象法中的人格"],
+      "verification_questions": ["Person与Persönlichkeit在译名上如何区分？", "法权人格为何不同于完整具体的人？"]
+    },
+    {
+      "id": "concept-property-ownership",
+      "filename": "property-ownership.md",
+      "preferred_label": "所有权",
+      "original_terms": [{"language": "de", "value": "Eigentum"}],
+      "alternative_labels": ["财产"],
+      "related_concept_ids": ["concept-person", "concept-possession", "concept-contract"],
+      "candidate_contexts": ["《法哲学原理》抽象法中的所有权"],
+      "verification_questions": ["Eigentum在何处应译为所有权或财产？", "人格意志、占有和使用之间如何区分？"]
+    },
+    {
+      "id": "concept-possession",
+      "filename": "possession.md",
+      "preferred_label": "占有",
+      "original_terms": [{"language": "de", "value": "Besitz"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-property-ownership", "concept-person"],
+      "candidate_contexts": ["《法哲学原理》所有权中的占有"],
+      "verification_questions": ["占有与所有权在法哲学中的严格区别是什么？", "取得占有的不同方式需如何绑定段落？"]
+    },
+    {
+      "id": "concept-contract",
+      "filename": "contract.md",
+      "preferred_label": "契约",
+      "original_terms": [{"language": "de", "value": "Vertrag"}],
+      "alternative_labels": ["合同"],
+      "related_concept_ids": ["concept-property-ownership", "concept-wrong", "concept-recognition"],
+      "candidate_contexts": ["《法哲学原理》抽象法中的契约"],
+      "verification_questions": ["契约中的共同意志为何仍是任意意志？", "能否把契约直接扩展为国家的基础？"]
+    },
+    {
+      "id": "concept-wrong",
+      "filename": "wrong.md",
+      "preferred_label": "不法",
+      "original_terms": [{"language": "de", "value": "Unrecht"}],
+      "alternative_labels": ["违法", "非正义"],
+      "related_concept_ids": ["concept-contract", "concept-crime", "concept-punishment"],
+      "candidate_contexts": ["《法哲学原理》抽象法中的不法"],
+      "verification_questions": ["无犯意的不法、欺诈与犯罪如何区分？", "Unrecht采用“不法”如何避免仅指成文法违法？"]
+    },
+    {
+      "id": "concept-crime",
+      "filename": "crime.md",
+      "preferred_label": "犯罪",
+      "original_terms": [{"language": "de", "value": "Verbrechen"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-wrong", "concept-punishment"],
+      "candidate_contexts": ["《法哲学原理》不法与犯罪"],
+      "verification_questions": ["犯罪作为对法的否定应如何准确表达？", "不要把黑格尔刑罚理论直接等同于哪些现代法学立场？"]
+    },
+    {
+      "id": "concept-punishment",
+      "filename": "punishment.md",
+      "preferred_label": "刑罚",
+      "original_terms": [{"language": "de", "value": "Strafe"}],
+      "alternative_labels": ["惩罚"],
+      "related_concept_ids": ["concept-crime", "concept-right", "concept-wrong"],
+      "candidate_contexts": ["《法哲学原理》犯罪与刑罚"],
+      "verification_questions": ["刑罚作为否定之否定的论证如何避免口号化？", "刑罚承认罪犯为理性者这一解读需哪些文本证据？"]
+    },
+    {
+      "id": "concept-morality",
+      "filename": "morality.md",
+      "preferred_label": "道德",
+      "original_terms": [{"language": "de", "value": "Moralität"}],
+      "alternative_labels": ["道德性"],
+      "related_concept_ids": ["concept-right", "concept-intention", "concept-good", "concept-ethical-life"],
+      "candidate_contexts": ["《法哲学原理》道德部分"],
+      "verification_questions": ["Moralität与Sittlichkeit应如何稳定区分？", "主观意志的权利和道德立场的局限如何同时呈现？"]
+    },
+    {
+      "id": "concept-purpose-responsibility",
+      "filename": "purpose-responsibility.md",
+      "preferred_label": "故意与责任",
+      "original_terms": [{"language": "de", "value": "Vorsatz und Schuld"}],
+      "alternative_labels": ["意图与责任"],
+      "related_concept_ids": ["concept-morality", "concept-intention", "concept-action"],
+      "candidate_contexts": ["《法哲学原理》道德中的故意与责任"],
+      "verification_questions": ["Vorsatz与Absicht在中文译名上如何区分？", "行动后果归责的边界如何从原文定位？"]
+    },
+    {
+      "id": "concept-intention",
+      "filename": "intention.md",
+      "preferred_label": "意图",
+      "original_terms": [{"language": "de", "value": "Absicht"}],
+      "alternative_labels": ["意向"],
+      "related_concept_ids": ["concept-purpose-responsibility", "concept-welfare", "concept-action"],
+      "candidate_contexts": ["《法哲学原理》意图与福利"],
+      "verification_questions": ["Absicht与Vorsatz如何译出层次差别？", "行动的普遍性质与行为者意图如何关联？"]
+    },
+    {
+      "id": "concept-action",
+      "filename": "action.md",
+      "preferred_label": "行动",
+      "original_terms": [{"language": "de", "value": "Handlung"}],
+      "alternative_labels": ["行为"],
+      "related_concept_ids": ["concept-will", "concept-intention", "concept-responsibility"],
+      "candidate_contexts": ["《法哲学原理》道德部分", "《精神现象学》理性与精神的行动"],
+      "verification_questions": ["Handlung与Tat在译名和归责结构上如何区分？", "现象学与法哲学中的行动应建立哪些语境？"]
+    },
+    {
+      "id": "concept-responsibility",
+      "filename": "responsibility.md",
+      "preferred_label": "责任",
+      "original_terms": [{"language": "de", "value": "Schuld"}, {"language": "de", "value": "Zurechnung"}],
+      "alternative_labels": ["归责", "罪责"],
+      "related_concept_ids": ["concept-action", "concept-purpose-responsibility", "concept-morality"],
+      "candidate_contexts": ["《法哲学原理》道德中的责任与归责"],
+      "verification_questions": ["Schuld兼有债、罪责等含义时如何按语境翻译？", "Zurechnung是否需要独立概念入口？"]
+    },
+    {
+      "id": "concept-welfare",
+      "filename": "welfare.md",
+      "preferred_label": "福利",
+      "original_terms": [{"language": "de", "value": "Wohl"}],
+      "alternative_labels": ["福祉"],
+      "related_concept_ids": ["concept-intention", "concept-good", "concept-need"],
+      "candidate_contexts": ["《法哲学原理》意图与福利", "市民社会的需要与福利问题"],
+      "verification_questions": ["Wohl应译作福利、福祉还是幸福？", "个体福利与普遍法之间如何协调？"]
+    },
+    {
+      "id": "concept-good",
+      "filename": "good.md",
+      "preferred_label": "善",
+      "original_terms": [{"language": "de", "value": "das Gute"}],
+      "alternative_labels": ["善的理念"],
+      "related_concept_ids": ["concept-morality", "concept-conscience", "concept-ethical-life"],
+      "candidate_contexts": ["《法哲学原理》善与良心", "《逻辑学》实践理念"],
+      "verification_questions": ["法哲学中的善与逻辑学的善的理念如何区分？", "抽象善为何不足以决定具体行动？"]
+    },
+    {
+      "id": "concept-conscience",
+      "filename": "conscience.md",
+      "preferred_label": "良心",
+      "original_terms": [{"language": "de", "value": "Gewissen"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-good", "concept-morality", "concept-ethical-life"],
+      "candidate_contexts": ["《法哲学原理》善与良心", "《精神现象学》良心与美丽灵魂"],
+      "verification_questions": ["两部著作中的良心结构如何关联？", "主观确定性与善的客观内容之间的张力是什么？"]
+    },
+    {
+      "id": "concept-family",
+      "filename": "family.md",
+      "preferred_label": "家庭",
+      "original_terms": [{"language": "de", "value": "Familie"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-ethical-life", "concept-civil-society", "concept-marriage"],
+      "candidate_contexts": ["《法哲学原理》伦理生活中的家庭"],
+      "verification_questions": ["家庭作为直接伦理精神如何说明其历史局限？", "婚姻、家庭财产和子女教育的结构如何分卡？"]
+    },
+    {
+      "id": "concept-marriage",
+      "filename": "marriage.md",
+      "preferred_label": "婚姻",
+      "original_terms": [{"language": "de", "value": "Ehe"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-family", "concept-ethical-life"],
+      "candidate_contexts": ["《法哲学原理》家庭中的婚姻"],
+      "verification_questions": ["婚姻的伦理关系与契约关系如何区分？", "如何标注文本中的时代性性别观念而不替其背书？"]
+    },
+    {
+      "id": "concept-civil-society",
+      "filename": "civil-society.md",
+      "preferred_label": "市民社会",
+      "original_terms": [{"language": "de", "value": "bürgerliche Gesellschaft"}],
+      "alternative_labels": ["公民社会"],
+      "related_concept_ids": ["concept-family", "concept-state", "concept-system-of-needs", "concept-estate"],
+      "candidate_contexts": ["《法哲学原理》伦理生活中的市民社会"],
+      "verification_questions": ["bürgerliche Gesellschaft采用市民社会还是公民社会？", "它与现代国家、市场社会和资产阶级社会如何区分？"]
+    },
+    {
+      "id": "concept-need",
+      "filename": "need.md",
+      "preferred_label": "需要",
+      "original_terms": [{"language": "de", "value": "Bedürfnis"}],
+      "alternative_labels": ["需求"],
+      "related_concept_ids": ["concept-system-of-needs", "concept-labor", "concept-welfare"],
+      "candidate_contexts": ["《法哲学原理》市民社会的需要体系"],
+      "verification_questions": ["需要的自然面与社会形成面如何区分？", "Bedürfnis采用需要还是需求更适合教学？"]
+    },
+    {
+      "id": "concept-system-of-needs",
+      "filename": "system-of-needs.md",
+      "preferred_label": "需要的体系",
+      "original_terms": [{"language": "de", "value": "System der Bedürfnisse"}],
+      "alternative_labels": ["需求体系"],
+      "related_concept_ids": ["concept-civil-society", "concept-need", "concept-labor", "concept-estate"],
+      "candidate_contexts": ["《法哲学原理》市民社会的需要体系"],
+      "verification_questions": ["需要、劳动、分工和相互依赖如何连接？", "能否把这一部分直接等同于现代经济学模型？"]
+    },
+    {
+      "id": "concept-estate",
+      "filename": "estate.md",
+      "preferred_label": "等级",
+      "original_terms": [{"language": "de", "value": "Stand"}],
+      "alternative_labels": ["社会等级", "阶层"],
+      "related_concept_ids": ["concept-civil-society", "concept-corporation", "concept-state"],
+      "candidate_contexts": ["《法哲学原理》市民社会的等级", "国家立法权中的等级要素"],
+      "verification_questions": ["Stand译作等级、阶层还是身份团体？", "社会等级与政治等级的不同语境如何分开？"]
+    },
+    {
+      "id": "concept-administration-of-justice",
+      "filename": "administration-of-justice.md",
+      "preferred_label": "司法",
+      "original_terms": [{"language": "de", "value": "Rechtspflege"}],
+      "alternative_labels": ["法的实施"],
+      "related_concept_ids": ["concept-civil-society", "concept-right", "concept-police"],
+      "candidate_contexts": ["《法哲学原理》市民社会的司法"],
+      "verification_questions": ["Rechtspflege在目标译本中的稳定译名是什么？", "抽象法如何在市民社会成为被认识和实施的法？"]
+    },
+    {
+      "id": "concept-police",
+      "filename": "police.md",
+      "preferred_label": "警察与公共管理",
+      "original_terms": [{"language": "de", "value": "Polizei"}],
+      "alternative_labels": ["警政", "公共权力"],
+      "related_concept_ids": ["concept-civil-society", "concept-corporation", "concept-welfare"],
+      "candidate_contexts": ["《法哲学原理》市民社会的警察与同业公会"],
+      "verification_questions": ["当时Polizei的范围为何宽于现代警察机关？", "公共管理对市场偶然性的干预边界如何说明？"]
+    },
+    {
+      "id": "concept-corporation",
+      "filename": "corporation.md",
+      "preferred_label": "同业公会",
+      "original_terms": [{"language": "de", "value": "Korporation"}],
+      "alternative_labels": ["团体", "行业组织"],
+      "related_concept_ids": ["concept-civil-society", "concept-estate", "concept-police"],
+      "candidate_contexts": ["《法哲学原理》市民社会的同业公会"],
+      "verification_questions": ["Korporation如何避免被直接理解为现代公司？", "其承认、福利与政治代表功能分别有什么文本依据？"]
+    },
+    {
+      "id": "concept-poverty",
+      "filename": "poverty.md",
+      "preferred_label": "贫困",
+      "original_terms": [{"language": "de", "value": "Armut"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-civil-society", "concept-rabble", "concept-welfare"],
+      "candidate_contexts": ["《法哲学原理》市民社会的贫困问题"],
+      "verification_questions": ["贫困如何被解释为市民社会内部生成的问题？", "黑格尔是否给出了充分解决方案，应如何呈现争议？"]
+    },
+    {
+      "id": "concept-rabble",
+      "filename": "rabble.md",
+      "preferred_label": "贱民",
+      "original_terms": [{"language": "de", "value": "Pöbel"}],
+      "alternative_labels": ["群氓", "贫民"],
+      "related_concept_ids": ["concept-poverty", "concept-civil-society", "concept-recognition"],
+      "candidate_contexts": ["《法哲学原理》贫困与贱民问题"],
+      "verification_questions": ["Pöbel的不同译名带有什么价值色彩？", "物质贫困、主观态度和社会承认之间如何区分？"]
+    },
+    {
+      "id": "concept-state",
+      "filename": "state.md",
+      "preferred_label": "国家",
+      "original_terms": [{"language": "de", "value": "Staat"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-ethical-life", "concept-civil-society", "concept-constitution", "concept-sovereignty"],
+      "candidate_contexts": ["《法哲学原理》国家", "《历史哲学讲演录》国家与世界历史"],
+      "verification_questions": ["国家作为伦理理念的现实与具体历史国家如何区分？", "如何避免把黑格尔国家论简化为国家至上主义？"]
+    },
+    {
+      "id": "concept-constitution",
+      "filename": "constitution.md",
+      "preferred_label": "宪制",
+      "original_terms": [{"language": "de", "value": "Verfassung"}],
+      "alternative_labels": ["宪法", "政制"],
+      "related_concept_ids": ["concept-state", "concept-sovereignty", "concept-monarch"],
+      "candidate_contexts": ["《法哲学原理》国家的内部宪制"],
+      "verification_questions": ["Verfassung在何处更适合译作宪制而非成文宪法？", "宪制与民族历史生活的关系如何说明？"]
+    },
+    {
+      "id": "concept-sovereignty",
+      "filename": "sovereignty.md",
+      "preferred_label": "主权",
+      "original_terms": [{"language": "de", "value": "Souveränität"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-state", "concept-constitution", "concept-monarch"],
+      "candidate_contexts": ["《法哲学原理》国内主权与对外主权"],
+      "verification_questions": ["主权的统一与国家权力分化如何兼容？", "国内主权和对外主权是否需要独立语境义项？"]
+    },
+    {
+      "id": "concept-monarch",
+      "filename": "monarch.md",
+      "preferred_label": "君主",
+      "original_terms": [{"language": "de", "value": "Monarch"}],
+      "alternative_labels": ["王权"],
+      "related_concept_ids": ["concept-state", "concept-sovereignty", "concept-constitution"],
+      "candidate_contexts": ["《法哲学原理》君主权"],
+      "verification_questions": ["君主的最终决断在黑格尔国家结构中有多大实质内容？", "如何把文本解释与对君主制的规范评价分开？"]
+    },
+    {
+      "id": "concept-public-opinion",
+      "filename": "public-opinion.md",
+      "preferred_label": "公共舆论",
+      "original_terms": [{"language": "de", "value": "öffentliche Meinung"}],
+      "alternative_labels": ["公众意见"],
+      "related_concept_ids": ["concept-state", "concept-civil-society", "concept-estate"],
+      "candidate_contexts": ["《法哲学原理》立法权与公共舆论"],
+      "verification_questions": ["公共舆论中的真理与错误如何并存？", "黑格尔的评价能否直接套用于社交媒体舆论？"]
+    },
+    {
+      "id": "concept-world-history",
+      "filename": "world-history.md",
+      "preferred_label": "世界历史",
+      "original_terms": [{"language": "de", "value": "Weltgeschichte"}],
+      "alternative_labels": ["世界史"],
+      "related_concept_ids": ["concept-world-spirit", "concept-freedom", "concept-world-historical-people"],
+      "candidate_contexts": ["《历史哲学讲演录》导论与分期", "《法哲学原理》世界历史"],
+      "verification_questions": ["Weltgeschichte译作世界历史或世界史有何差异？", "讲演录版本与编纂史会怎样影响具体文本依据？"]
+    },
+    {
+      "id": "concept-world-spirit",
+      "filename": "world-spirit.md",
+      "preferred_label": "世界精神",
+      "original_terms": [{"language": "de", "value": "Weltgeist"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-world-history", "concept-national-spirit", "concept-reason"],
+      "candidate_contexts": ["《历史哲学讲演录》世界历史的主体", "《法哲学原理》世界历史"],
+      "verification_questions": ["世界精神如何避免被描述成操纵历史的超自然人格？", "它与各民族精神及个体行动的关系如何说明？"]
+    },
+    {
+      "id": "concept-national-spirit",
+      "filename": "national-spirit.md",
+      "preferred_label": "民族精神",
+      "original_terms": [{"language": "de", "value": "Volksgeist"}],
+      "alternative_labels": ["人民精神"],
+      "related_concept_ids": ["concept-world-spirit", "concept-world-historical-people", "concept-state"],
+      "candidate_contexts": ["《历史哲学讲演录》各民族与世界历史", "《哲学史讲演录》哲学与民族精神"],
+      "verification_questions": ["Volk与Nation相关译词如何处理？", "民族精神概念如何避免本质主义和民族刻板印象？"]
+    },
+    {
+      "id": "concept-world-historical-people",
+      "filename": "world-historical-people.md",
+      "preferred_label": "世界历史民族",
+      "original_terms": [{"language": "de", "value": "welthistorisches Volk"}],
+      "alternative_labels": ["世界历史性民族"],
+      "related_concept_ids": ["concept-world-history", "concept-national-spirit", "concept-world-historical-individual"],
+      "candidate_contexts": ["《历史哲学讲演录》世界历史民族的更替"],
+      "verification_questions": ["该概念的排他性、欧洲中心主义和时代局限如何显式标注？", "它是描述性分类还是规范性等级判断？"]
+    },
+    {
+      "id": "concept-world-historical-individual",
+      "filename": "world-historical-individual.md",
+      "preferred_label": "世界历史个人",
+      "original_terms": [{"language": "de", "value": "welthistorisches Individuum"}],
+      "alternative_labels": ["世界历史性个人"],
+      "related_concept_ids": ["concept-world-historical-people", "concept-passion", "concept-cunning-of-reason"],
+      "candidate_contexts": ["《历史哲学讲演录》伟大个人与历史目的"],
+      "verification_questions": ["世界历史个人与英雄崇拜有何不同？", "个人目的和世界历史结果之间如何建立非神秘化解释？"]
+    },
+    {
+      "id": "concept-passion",
+      "filename": "passion.md",
+      "preferred_label": "热情",
+      "original_terms": [{"language": "de", "value": "Leidenschaft"}],
+      "alternative_labels": ["激情"],
+      "related_concept_ids": ["concept-world-historical-individual", "concept-cunning-of-reason", "concept-interest"],
+      "candidate_contexts": ["《历史哲学讲演录》个人热情与普遍目的"],
+      "verification_questions": ["Leidenschaft采用热情还是激情更合适？", "“没有热情，世界上任何伟大的事情都不会完成”的出处和语境如何核验？"]
+    },
+    {
+      "id": "concept-interest",
+      "filename": "interest.md",
+      "preferred_label": "利益",
+      "original_terms": [{"language": "de", "value": "Interesse"}],
+      "alternative_labels": ["兴趣", "关切"],
+      "related_concept_ids": ["concept-passion", "concept-cunning-of-reason", "concept-civil-society"],
+      "candidate_contexts": ["《历史哲学讲演录》个人利益与普遍目的", "《法哲学原理》市民社会的特殊利益"],
+      "verification_questions": ["Interesse在不同语境应译为利益、兴趣还是关切？", "个人利益如何成为普遍结果的中介？"]
+    },
+    {
+      "id": "concept-cunning-of-reason",
+      "filename": "cunning-of-reason.md",
+      "preferred_label": "理性的狡计",
+      "original_terms": [{"language": "de", "value": "List der Vernunft"}],
+      "alternative_labels": ["理性的机巧", "理性的计谋"],
+      "related_concept_ids": ["concept-reason", "concept-passion", "concept-world-history"],
+      "candidate_contexts": ["《历史哲学讲演录》理性、热情与历史结果", "《逻辑学》目的性中的候选关联"],
+      "verification_questions": ["讲演录中的通行表述与逻辑学目的性之间有哪些文本联系？", "如何避免把它写成有意识幕后操纵历史的阴谋？"]
+    },
+    {
+      "id": "concept-consciousness-of-freedom",
+      "filename": "consciousness-of-freedom.md",
+      "preferred_label": "自由意识",
+      "original_terms": [{"language": "de", "value": "Bewusstsein der Freiheit"}],
+      "alternative_labels": ["对自由的意识"],
+      "related_concept_ids": ["concept-freedom", "concept-world-history", "concept-progress"],
+      "candidate_contexts": ["《历史哲学讲演录》世界历史是自由意识的进步"],
+      "verification_questions": ["“自由意识的进步”这一公式应绑定哪个版本和段落？", "自由意识的扩展与实际制度自由如何区分？"]
+    },
+    {
+      "id": "concept-progress",
+      "filename": "progress.md",
+      "preferred_label": "进步",
+      "original_terms": [{"language": "de", "value": "Fortschritt"}],
+      "alternative_labels": ["发展"],
+      "related_concept_ids": ["concept-consciousness-of-freedom", "concept-world-history", "concept-development"],
+      "candidate_contexts": ["《历史哲学讲演录》自由意识的进步"],
+      "verification_questions": ["黑格尔的进步概念是否意味着连续、线性改善？", "如何处理该叙事中的殖民主义和欧洲中心主义问题？"]
+    },
+    {
+      "id": "concept-development",
+      "filename": "development.md",
+      "preferred_label": "发展",
+      "original_terms": [{"language": "de", "value": "Entwicklung"}],
+      "alternative_labels": ["展开"],
+      "related_concept_ids": ["concept-concept", "concept-progress", "concept-history-of-philosophy"],
+      "candidate_contexts": ["《哲学史讲演录》哲学理念的发展", "《历史哲学讲演录》世界历史进程"],
+      "verification_questions": ["Entwicklung在概念自我展开和历史进步中含义是否相同？", "发展能否被简化为预定结果的直线实现？"]
+    },
+    {
+      "id": "concept-history",
+      "filename": "history.md",
+      "preferred_label": "历史",
+      "original_terms": [{"language": "de", "value": "Geschichte"}],
+      "alternative_labels": ["历史叙述"],
+      "related_concept_ids": ["concept-world-history", "concept-history-of-philosophy"],
+      "candidate_contexts": ["《历史哲学讲演录》导论", "《哲学史讲演录》导论"],
+      "verification_questions": ["客观事件、历史叙述和哲学的历史之间如何区分？", "黑格尔的历史观能否称为历史主义，需依据哪些二手研究？"]
+    },
+    {
+      "id": "concept-philosophy",
+      "filename": "philosophy.md",
+      "preferred_label": "哲学",
+      "original_terms": [{"language": "de", "value": "Philosophie"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-science", "concept-history-of-philosophy", "concept-absolute-spirit"],
+      "candidate_contexts": ["《哲学史讲演录》导论", "《法哲学原理》序言", "《哲学全书》导论"],
+      "verification_questions": ["哲学作为时代在思想中的把握应如何准确引用和解释？", "哲学、宗教和艺术在绝对精神中的关系是什么？"]
+    },
+    {
+      "id": "concept-history-of-philosophy",
+      "filename": "history-of-philosophy.md",
+      "preferred_label": "哲学史",
+      "original_terms": [{"language": "de", "value": "Geschichte der Philosophie"}],
+      "alternative_labels": ["哲学的历史"],
+      "related_concept_ids": ["concept-philosophy", "concept-development", "concept-system"],
+      "candidate_contexts": ["《哲学史讲演录》导论与各时期结构"],
+      "verification_questions": ["哲学史为何不是意见和人物的陈列？", "逻辑范畴与哲学史顺序之间能否建立一一对应？"]
+    },
+    {
+      "id": "concept-philosophical-principle",
+      "filename": "philosophical-principle.md",
+      "preferred_label": "哲学原则",
+      "original_terms": [{"language": "de", "value": "Prinzip der Philosophie"}],
+      "alternative_labels": ["哲学原理"],
+      "related_concept_ids": ["concept-history-of-philosophy", "concept-thought", "concept-system"],
+      "candidate_contexts": ["《哲学史讲演录》对各哲学体系原则的重构"],
+      "verification_questions": ["原则是历史哲学家的自述还是黑格尔的系统重构？", "如何避免用单一标签抹平一位哲学家的复杂文本？"]
+    },
+    {
+      "id": "concept-thought",
+      "filename": "thought.md",
+      "preferred_label": "思想",
+      "original_terms": [{"language": "de", "value": "Gedanke"}, {"language": "de", "value": "Denken"}],
+      "alternative_labels": ["思维"],
+      "related_concept_ids": ["concept-philosophy", "concept-concept", "concept-reason"],
+      "candidate_contexts": ["《哲学史讲演录》哲学作为思想的把握", "《逻辑学》思维规定"],
+      "verification_questions": ["Gedanke与Denken在中文中如何区分？", "思想的客观性主张如何避免等同于个人意见？"]
+    },
+    {
+      "id": "concept-spirit-of-the-age",
+      "filename": "spirit-of-the-age.md",
+      "preferred_label": "时代精神",
+      "original_terms": [{"language": "de", "value": "Geist der Zeit"}],
+      "alternative_labels": ["时代的精神", "Zeitgeist"],
+      "related_concept_ids": ["concept-philosophy", "concept-history", "concept-national-spirit"],
+      "candidate_contexts": ["《哲学史讲演录》哲学与时代", "《法哲学原理》序言"],
+      "verification_questions": ["通行词Zeitgeist与黑格尔实际用语、段落如何核验？", "哲学反映时代与哲学批判时代之间有何张力？"]
+    },
+    {
+      "id": "concept-greek-philosophy",
+      "filename": "greek-philosophy.md",
+      "preferred_label": "希腊哲学",
+      "original_terms": [{"language": "de", "value": "griechische Philosophie"}],
+      "alternative_labels": ["古希腊哲学"],
+      "related_concept_ids": ["concept-history-of-philosophy", "concept-philosophical-principle"],
+      "candidate_contexts": ["《哲学史讲演录》希腊哲学部分"],
+      "verification_questions": ["黑格尔对希腊哲学的阶段划分采用哪个编本？", "如何区分历史材料、黑格尔重构与现代古典学研究？"]
+    },
+    {
+      "id": "concept-modern-philosophy",
+      "filename": "modern-philosophy.md",
+      "preferred_label": "近代哲学",
+      "original_terms": [{"language": "de", "value": "neuere Philosophie"}],
+      "alternative_labels": ["现代哲学"],
+      "related_concept_ids": ["concept-history-of-philosophy", "concept-subject", "concept-freedom"],
+      "candidate_contexts": ["《哲学史讲演录》近代哲学部分"],
+      "verification_questions": ["neuere Philosophie采用近代还是现代，需如何按中文学术习惯处理？", "主体性与自由作为近代原则的概括有哪些边界？"]
+    },
+    {
+      "id": "concept-art",
+      "filename": "art.md",
+      "preferred_label": "艺术",
+      "original_terms": [{"language": "de", "value": "Kunst"}],
+      "alternative_labels": [],
+      "related_concept_ids": ["concept-absolute-spirit", "concept-religion", "concept-philosophy"],
+      "candidate_contexts": ["《哲学全书》绝对精神的艺术", "《精神现象学》艺术宗教"],
+      "verification_questions": ["本项目未纳入《美学讲演录》时，艺术卡应怎样限制范围？", "艺术、宗教和哲学的关系是否能简化为艺术终结论？"]
+    },
+    {
+      "id": "concept-absolute",
+      "filename": "absolute.md",
+      "preferred_label": "绝对者",
+      "original_terms": [{"language": "de", "value": "das Absolute"}],
+      "alternative_labels": ["绝对"],
+      "related_concept_ids": ["concept-absolute-idea", "concept-absolute-spirit", "concept-substance"],
+      "candidate_contexts": ["《精神现象学》序言", "《逻辑学》绝对关系与绝对理念", "《哲学全书》体系"],
+      "verification_questions": ["“绝对”作为形容词与“绝对者”作为名词如何区分？", "如何避免把绝对者写成与有限世界相隔离的最高对象？"]
+    }
+  ]
+}
